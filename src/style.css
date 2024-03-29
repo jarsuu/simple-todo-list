@@ -74,7 +74,7 @@ button {
 }
 
 .task-container {
-  padding: 1rem;
+  min-height: 200px; /* min height for smooth dragging */
 }
 
 .input-form {

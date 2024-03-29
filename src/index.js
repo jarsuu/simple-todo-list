@@ -104,7 +104,6 @@ document.addEventListener("DOMContentLoaded", function () {
       if (e.key == "Enter" && !e.shiftKey) {
         saveEditedInput();
       }
-      
     }
 
     function handleBlur() {
@@ -126,11 +125,12 @@ document.addEventListener("DOMContentLoaded", function () {
       e.preventDefault();
       const afterElement = getDragAfterElement(container, e.clientY);
       const draggable = document.querySelector(".dragging");
+
       if (afterElement == null) {
-        container.appendChild(draggable);
-      } else {
-        container.insertBefore(draggable, afterElement);
-      }
+          container.appendChild(draggable);
+        } else {
+          container.insertBefore(draggable, afterElement);
+        }
     })
 
     function getDragAfterElement(container, y) {
