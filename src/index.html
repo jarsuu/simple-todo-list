@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <title>ToDo</title>
+</head>
+
+<body>
+  <h1 class="title-card">To Do List</h1>
+
+  <!-- to do input box -->
+  <div id="task-submit" class="input-form">
+    <label for="task-description">Enter task</label><br>
+    <input type="text" id="task-description" name="task-description">
+    <button id="add-task-btn">Add</button>
+  </div>
+
+  <div class="parent">
+    <!-- to do column -->
+    <div class="child" id="not-done">
+      <span class="category not-done">Not done</span>
+      <div class="task-container">
+
+      </div>
+    </div>
+
+
+    <div class="child" id="doing">
+      <span class="category doing">Doing</span>
+      <div class="task-container">
+      </div>
+    </div>
+
+    <div class="child" id="done">
+      <span class="category done">Done</span>
+      <div class="task-container">
+
+      </div>
+    </div>
+
+
+  </div>
+</body>
+
+</html>
