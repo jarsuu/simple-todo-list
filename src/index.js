@@ -125,7 +125,7 @@ document.addEventListener("DOMContentLoaded", function () {
       e.preventDefault();
       const afterElement = getDragAfterElement(container, e.clientY);
       const draggable = document.querySelector(".dragging");
-
+      
       if (afterElement == null) {
           container.appendChild(draggable);
         } else {

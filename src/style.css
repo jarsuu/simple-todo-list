@@ -30,10 +30,10 @@ button {
 }
 
 .child {
-  border: 1px solid white;
   display: flex;
   flex-direction: column;
-  flex: 1
+  flex: 1;
+  margin: 0 2em;
 }
 
 .title-card {
@@ -48,6 +48,7 @@ button {
   padding: 1rem;
   font-weight: bold;
   font-size: 2rem;
+  border-radius: 10px;
 }
 .not-done {
   background-color: #9b2800;
@@ -78,7 +79,7 @@ button {
 }
 
 .input-form {
-  margin: 3rem 0;
+  margin: 2rem 0;
   text-align: center;
 }
 
@@ -92,7 +93,7 @@ button {
   padding: 0.5rem;
   border-radius: 5px;
   height: 2rem;
-  width: 15rem;
+  width: 27rem;
   font-family: inherit;
   font-size: 1rem;
   border: 2px solid #ccc;
