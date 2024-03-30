@@ -11,15 +11,9 @@ git clone https://github.com/jarsuu/simple-todo-list.git
 ```
 cd simple-todo-list
 ```
-3. **Install LiveServer (if not installed)**:
-```
-npm install -g live-server
-```
 
-4. **Start the Live Server**:
-```
-live-server
-```
+3. **Start the Live Server**:  
+Once the server is running, open your web browser and navigate to the provided localhost address.
 
 5. **Open Browser**:
 Once the server is running, open your web browser and navigate to the provided localhost address to access the Simple ToDo List.
