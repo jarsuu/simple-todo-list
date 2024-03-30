@@ -21,7 +21,7 @@ npm install -g live-server
 live-server
 ```
 
-5. **Open browser**:
+5. **Open Browser**:
 Once the server is running, open your web browser and navigate to the provided localhost address to access the Simple ToDo List.
 
 # Usage
